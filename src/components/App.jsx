@@ -32,10 +32,7 @@ export class App extends Component {
   };
 
   changeFilter = e => {
-    this.setState(prevState => {
-      return {
-        filter: e.target.value 
-      }});
+    this.setState({ filter: e.target.value });
   };
 
   getVisibleContacts = () => {
