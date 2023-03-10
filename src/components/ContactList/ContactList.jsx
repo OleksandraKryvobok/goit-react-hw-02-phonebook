@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
-import { List, Item, Container, Name } from './ContactList.styled';
+import { List, Item, Container } from './ContactList.styled';
 
 const ContactList = ({ contacts, deleteContact }) => {
     return (
@@ -10,8 +10,8 @@ const ContactList = ({ contacts, deleteContact }) => {
                     <Item key={nanoid()}>
                         <Container>
                             <div>
-                                <Name>{contact.name}</Name>
-                                :{contact.number}
+                                <span>{contact.name}</span>
+                                : {contact.number}
                             </div>
                             
                             <button type='button' onClick={deleteContact}>Delete</button>

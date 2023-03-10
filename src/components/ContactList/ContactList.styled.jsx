@@ -16,7 +16,3 @@ export const Container = styled.div`
     align-items: center;
     width: 300px;
 `;
-
-export const Name = styled.span`
-    margin-right: 6px;
-`;
