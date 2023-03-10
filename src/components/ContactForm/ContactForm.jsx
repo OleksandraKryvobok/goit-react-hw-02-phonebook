@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Formik } from "formik";
 import * as Yup from 'yup';
 import { nanoid } from "nanoid";
-import { Form, FormField, Field, ErrorMessage, Button } from "./ContactForm.styled";
+import { Form, FormField, Field, ErrorMessage } from "./ContactForm.styled";
 
 const ContactSchema = Yup.object().shape({
     name: Yup.string()
