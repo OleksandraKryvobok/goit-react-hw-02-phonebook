@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 import { List, Item, Container } from './ContactList.styled';
